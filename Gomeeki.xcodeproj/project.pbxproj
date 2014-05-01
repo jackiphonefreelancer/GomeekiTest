@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C0A33F1912507B006D58DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C0A33E1912507B006D58DF /* Foundation.framework */; };
+		04C0A3411912507B006D58DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C0A3401912507B006D58DF /* CoreGraphics.framework */; };
+		04C0A3431912507B006D58DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C0A3421912507B006D58DF /* UIKit.framework */; };
+		04C0A3491912507B006D58DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04C0A3471912507B006D58DF /* InfoPlist.strings */; };
+		04C0A34B1912507B006D58DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C0A34A1912507B006D58DF /* main.m */; };
+		04C0A34F1912507B006D58DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C0A34E1912507B006D58DF /* AppDelegate.m */; };
+		04C0A3511912507B006D58DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C0A3501912507B006D58DF /* Images.xcassets */; };
+		04C0A3581912507B006D58DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C0A3571912507B006D58DF /* XCTest.framework */; };
+		04C0A3591912507B006D58DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C0A33E1912507B006D58DF /* Foundation.framework */; };
+		04C0A35A1912507B006D58DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C0A3421912507B006D58DF /* UIKit.framework */; };
+		04C0A3621912507B006D58DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04C0A3601912507B006D58DF /* InfoPlist.strings */; };
+		04C0A3641912507B006D58DF /* GomeekiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C0A3631912507B006D58DF /* GomeekiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04C0A35B1912507B006D58DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C0A3331912507B006D58DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C0A33A1912507B006D58DF;
+			remoteInfo = Gomeeki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C0A33B1912507B006D58DF /* Gomeeki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gomeeki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C0A33E1912507B006D58DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04C0A3401912507B006D58DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04C0A3421912507B006D58DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04C0A3461912507B006D58DF /* Gomeeki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gomeeki-Info.plist"; sourceTree = "<group>"; };
+		04C0A3481912507B006D58DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04C0A34A1912507B006D58DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C0A34C1912507B006D58DF /* Gomeeki-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gomeeki-Prefix.pch"; sourceTree = "<group>"; };
+		04C0A34D1912507B006D58DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04C0A34E1912507B006D58DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04C0A3501912507B006D58DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04C0A3561912507B006D58DF /* GomeekiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GomeekiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C0A3571912507B006D58DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04C0A35F1912507B006D58DF /* GomeekiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GomeekiTests-Info.plist"; sourceTree = "<group>"; };
+		04C0A3611912507B006D58DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04C0A3631912507B006D58DF /* GomeekiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GomeekiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C0A3381912507B006D58DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C0A3411912507B006D58DF /* CoreGraphics.framework in Frameworks */,
+				04C0A3431912507B006D58DF /* UIKit.framework in Frameworks */,
+				04C0A33F1912507B006D58DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C0A3531912507B006D58DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C0A3581912507B006D58DF /* XCTest.framework in Frameworks */,
+				04C0A35A1912507B006D58DF /* UIKit.framework in Frameworks */,
+				04C0A3591912507B006D58DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C0A3321912507B006D58DF = {
+			isa = PBXGroup;
+			children = (
+				04C0A3441912507B006D58DF /* Gomeeki */,
+				04C0A35D1912507B006D58DF /* GomeekiTests */,
+				04C0A33D1912507B006D58DF /* Frameworks */,
+				04C0A33C1912507B006D58DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C0A33C1912507B006D58DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C0A33B1912507B006D58DF /* Gomeeki.app */,
+				04C0A3561912507B006D58DF /* GomeekiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C0A33D1912507B006D58DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C0A33E1912507B006D58DF /* Foundation.framework */,
+				04C0A3401912507B006D58DF /* CoreGraphics.framework */,
+				04C0A3421912507B006D58DF /* UIKit.framework */,
+				04C0A3571912507B006D58DF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04C0A3441912507B006D58DF /* Gomeeki */ = {
+			isa = PBXGroup;
+			children = (
+				04C0A34D1912507B006D58DF /* AppDelegate.h */,
+				04C0A34E1912507B006D58DF /* AppDelegate.m */,
+				04C0A3501912507B006D58DF /* Images.xcassets */,
+				04C0A3451912507B006D58DF /* Supporting Files */,
+			);
+			path = Gomeeki;
+			sourceTree = "<group>";
+		};
+		04C0A3451912507B006D58DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C0A3461912507B006D58DF /* Gomeeki-Info.plist */,
+				04C0A3471912507B006D58DF /* InfoPlist.strings */,
+				04C0A34A1912507B006D58DF /* main.m */,
+				04C0A34C1912507B006D58DF /* Gomeeki-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04C0A35D1912507B006D58DF /* GomeekiTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C0A3631912507B006D58DF /* GomeekiTests.m */,
+				04C0A35E1912507B006D58DF /* Supporting Files */,
+			);
+			path = GomeekiTests;
+			sourceTree = "<group>";
+		};
+		04C0A35E1912507B006D58DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C0A35F1912507B006D58DF /* GomeekiTests-Info.plist */,
+				04C0A3601912507B006D58DF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C0A33A1912507B006D58DF /* Gomeeki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C0A3671912507B006D58DF /* Build configuration list for PBXNativeTarget "Gomeeki" */;
+			buildPhases = (
+				04C0A3371912507B006D58DF /* Sources */,
+				04C0A3381912507B006D58DF /* Frameworks */,
+				04C0A3391912507B006D58DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gomeeki;
+			productName = Gomeeki;
+			productReference = 04C0A33B1912507B006D58DF /* Gomeeki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04C0A3551912507B006D58DF /* GomeekiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C0A36A1912507B006D58DF /* Build configuration list for PBXNativeTarget "GomeekiTests" */;
+			buildPhases = (
+				04C0A3521912507B006D58DF /* Sources */,
+				04C0A3531912507B006D58DF /* Frameworks */,
+				04C0A3541912507B006D58DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C0A35C1912507B006D58DF /* PBXTargetDependency */,
+			);
+			name = GomeekiTests;
+			productName = GomeekiTests;
+			productReference = 04C0A3561912507B006D58DF /* GomeekiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C0A3331912507B006D58DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ZAIAPP;
+				TargetAttributes = {
+					04C0A3551912507B006D58DF = {
+						TestTargetID = 04C0A33A1912507B006D58DF;
+					};
+				};
+			};
+			buildConfigurationList = 04C0A3361912507B006D58DF /* Build configuration list for PBXProject "Gomeeki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04C0A3321912507B006D58DF;
+			productRefGroup = 04C0A33C1912507B006D58DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C0A33A1912507B006D58DF /* Gomeeki */,
+				04C0A3551912507B006D58DF /* GomeekiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C0A3391912507B006D58DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C0A3491912507B006D58DF /* InfoPlist.strings in Resources */,
+				04C0A3511912507B006D58DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C0A3541912507B006D58DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C0A3621912507B006D58DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C0A3371912507B006D58DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C0A34F1912507B006D58DF /* AppDelegate.m in Sources */,
+				04C0A34B1912507B006D58DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C0A3521912507B006D58DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C0A3641912507B006D58DF /* GomeekiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C0A35C1912507B006D58DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C0A33A1912507B006D58DF /* Gomeeki */;
+			targetProxy = 04C0A35B1912507B006D58DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04C0A3471912507B006D58DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C0A3481912507B006D58DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04C0A3601912507B006D58DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C0A3611912507B006D58DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C0A3651912507B006D58DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04C0A3661912507B006D58DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C0A3681912507B006D58DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gomeeki/Gomeeki-Prefix.pch";
+				INFOPLIST_FILE = "Gomeeki/Gomeeki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04C0A3691912507B006D58DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gomeeki/Gomeeki-Prefix.pch";
+				INFOPLIST_FILE = "Gomeeki/Gomeeki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04C0A36B1912507B006D58DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gomeeki.app/Gomeeki";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gomeeki/Gomeeki-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GomeekiTests/GomeekiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04C0A36C1912507B006D58DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gomeeki.app/Gomeeki";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gomeeki/Gomeeki-Prefix.pch";
+				INFOPLIST_FILE = "GomeekiTests/GomeekiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C0A3361912507B006D58DF /* Build configuration list for PBXProject "Gomeeki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C0A3651912507B006D58DF /* Debug */,
+				04C0A3661912507B006D58DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C0A3671912507B006D58DF /* Build configuration list for PBXNativeTarget "Gomeeki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C0A3681912507B006D58DF /* Debug */,
+				04C0A3691912507B006D58DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04C0A36A1912507B006D58DF /* Build configuration list for PBXNativeTarget "GomeekiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C0A36B1912507B006D58DF /* Debug */,
+				04C0A36C1912507B006D58DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C0A3331912507B006D58DF /* Project object */;
+}
