@@ -13,4 +13,11 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+    #import "Service.h"
+    #import "ArticleListModel.h"
+    #import "Utilities.h"
+
+    #define SERVER_URL @"http://mobiletest.gomeekisystems.com"
+
 #endif

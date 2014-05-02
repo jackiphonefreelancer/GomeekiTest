@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ArticleListViewController.h"
 
 @implementation AppDelegate
 
@@ -16,6 +17,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    //Create ArticleListViewController which is UITableviewController for showing the article sport list,inside navagation controller.
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ArticleListViewController alloc] initWithStyle:UITableViewStylePlain]];
+    
     return YES;
 }
 

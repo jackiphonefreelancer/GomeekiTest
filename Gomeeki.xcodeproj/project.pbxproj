@@ -19,6 +19,11 @@
 		04C0A35A1912507B006D58DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C0A3421912507B006D58DF /* UIKit.framework */; };
 		04C0A3621912507B006D58DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04C0A3601912507B006D58DF /* InfoPlist.strings */; };
 		04C0A3641912507B006D58DF /* GomeekiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C0A3631912507B006D58DF /* GomeekiTests.m */; };
+		04C0A37419125292006D58DF /* ArticleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C0A37319125292006D58DF /* ArticleListViewController.m */; };
+		04C0A37719125C36006D58DF /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C0A37619125C36006D58DF /* Service.m */; };
+		04C0A37A191266DD006D58DF /* ArticleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C0A379191266DD006D58DF /* ArticleListModel.m */; };
+		04C0A37D191297E8006D58DF /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C0A37C191297E7006D58DF /* Utilities.m */; };
+		04C0A3801912A71B006D58DF /* ArticleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C0A37F1912A71B006D58DF /* ArticleDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,16 @@
 		04C0A35F1912507B006D58DF /* GomeekiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GomeekiTests-Info.plist"; sourceTree = "<group>"; };
 		04C0A3611912507B006D58DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04C0A3631912507B006D58DF /* GomeekiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GomeekiTests.m; sourceTree = "<group>"; };
+		04C0A37219125292006D58DF /* ArticleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleListViewController.h; sourceTree = "<group>"; };
+		04C0A37319125292006D58DF /* ArticleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleListViewController.m; sourceTree = "<group>"; };
+		04C0A37519125C36006D58DF /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		04C0A37619125C36006D58DF /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+		04C0A378191266DD006D58DF /* ArticleListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleListModel.h; sourceTree = "<group>"; };
+		04C0A379191266DD006D58DF /* ArticleListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleListModel.m; sourceTree = "<group>"; };
+		04C0A37B191297E7006D58DF /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		04C0A37C191297E7006D58DF /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		04C0A37E1912A71B006D58DF /* ArticleDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleDetailViewController.h; sourceTree = "<group>"; };
+		04C0A37F1912A71B006D58DF /* ArticleDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +122,8 @@
 		04C0A3441912507B006D58DF /* Gomeeki */ = {
 			isa = PBXGroup;
 			children = (
+				04C0A36D191250BF006D58DF /* Model */,
+				04C0A36E191250CA006D58DF /* ViewController */,
 				04C0A34D1912507B006D58DF /* AppDelegate.h */,
 				04C0A34E1912507B006D58DF /* AppDelegate.m */,
 				04C0A3501912507B006D58DF /* Images.xcassets */,
@@ -142,6 +159,30 @@
 				04C0A3601912507B006D58DF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04C0A36D191250BF006D58DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04C0A37519125C36006D58DF /* Service.h */,
+				04C0A37619125C36006D58DF /* Service.m */,
+				04C0A378191266DD006D58DF /* ArticleListModel.h */,
+				04C0A379191266DD006D58DF /* ArticleListModel.m */,
+				04C0A37B191297E7006D58DF /* Utilities.h */,
+				04C0A37C191297E7006D58DF /* Utilities.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04C0A36E191250CA006D58DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04C0A37219125292006D58DF /* ArticleListViewController.h */,
+				04C0A37319125292006D58DF /* ArticleListViewController.m */,
+				04C0A37E1912A71B006D58DF /* ArticleDetailViewController.h */,
+				04C0A37F1912A71B006D58DF /* ArticleDetailViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C0A37D191297E8006D58DF /* Utilities.m in Sources */,
 				04C0A34F1912507B006D58DF /* AppDelegate.m in Sources */,
+				04C0A3801912A71B006D58DF /* ArticleDetailViewController.m in Sources */,
+				04C0A37A191266DD006D58DF /* ArticleListModel.m in Sources */,
+				04C0A37719125C36006D58DF /* Service.m in Sources */,
+				04C0A37419125292006D58DF /* ArticleListViewController.m in Sources */,
 				04C0A34B1912507B006D58DF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gomeeki/Gomeeki-Prefix.pch";
 				INFOPLIST_FILE = "Gomeeki/Gomeeki-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +422,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gomeeki/Gomeeki-Prefix.pch";
 				INFOPLIST_FILE = "Gomeeki/Gomeeki-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
